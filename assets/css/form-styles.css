@@ -1,7 +1,47 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #612DE0;
+}
+
 .formulario {
     display: flex ;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    height: 80vh;      
+}
+
+.formulario__campo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;    
 }
 
 .formulario__label {
     width: 100%;
+    text-align: center;   
+    font-size: 2rem;
+    font-weight: 500;
+    color: #FAA746;
+
+}
+
+.formulario__input {
+    background-color: #FAA746;
+    height: 1.5rem;
+    width: 30%;
+}
+
+#boton{ 
+    background-color: #612DE0;
+    width: 20%;
+    height: 3rem;
+    font-weight: bolder;
+}
+
+#boton:hover {
+    filter: brightness(0.5);
 }
