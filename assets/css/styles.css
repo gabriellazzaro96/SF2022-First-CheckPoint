@@ -1,0 +1,129 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {    
+    height: 10vh;
+    background-color: #612DE0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.header__logo{
+    height: 100%;
+    width: 70px
+}
+
+.header__navbar {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__link{
+    font-style: normal;
+    font-size: 1.5rem;    
+    color:  #FAA746;
+    text-decoration: none;    
+}
+
+.Users {
+    height: 30vh;
+    background: #FAA746;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.Users:hover {
+    filter: brightness(0.5);
+}
+
+.Users__text{
+    width: 100%;
+    font-size: 2rem;
+    color: #612DE0;
+}
+
+.Users__link{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #612DE0;
+    text-align: center;
+}
+
+.RickMorty {
+    background: #612DE0;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.RickMorty:hover {
+    filter: brightness(0.5);
+}
+
+.RickMorty__text {
+    width: 100%;
+    font-size: 2rem;
+    color: #FAA746;
+}
+
+.RickMorty__link {
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 900;
+    color:#FAA746;
+    text-align: center;
+}
+
+.Contacto {
+    height: 20vh;
+    background: #FAA746;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.Contacto:hover {
+    filter: brightness(0.5);
+}
+
+.Contacto__text {
+    width: 100%;
+    font-size: 2rem;
+    color: #612DE0;
+}
+
+.Contacto__link {
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #612DE0;
+    text-align: center;
+}
+
+.footer {
+    background: #612DE0;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.copyright {
+    color: #FAA746;
+}
+
+
+
+

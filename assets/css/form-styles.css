@@ -1,0 +1,7 @@
+.formulario {
+    display: flex ;
+}
+
+.formulario__label {
+    width: 100%;
+}
