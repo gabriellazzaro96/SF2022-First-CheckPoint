@@ -12,8 +12,7 @@ function showData(data) {
     let body = '';
     for(let i = 0; i<20; i++){
         //console.log(data[i]);
-        body +=`  
-              
+        body +=`                
             <div class="cards__datos">     
                 <h2>Id:${data.results[i].id}</h2>            
                 <h2>Name:${data.results[i].name}</h2>
@@ -21,8 +20,7 @@ function showData(data) {
             <div>
             <div class="cards__image">
                 <img src="${data.results[i].image}">
-            </div>    
-                              
+            </div>                                  
         `;
     }
 
