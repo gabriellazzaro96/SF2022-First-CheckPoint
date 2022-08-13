@@ -1,0 +1,39 @@
+body {
+    background-color: #FAA746;
+    margin: 20px 20px;
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+
+   
+}
+
+#fetch-petition {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 33%; 
+
+}
+
+.cards__datos{ 
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards__datos h2 {
+    font-size: 1.5rem;
+}
+
+.cards__image {
+    display: flex;
+
+}
+
+.datos{
+   
+}

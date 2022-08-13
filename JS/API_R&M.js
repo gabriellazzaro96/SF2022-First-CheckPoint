@@ -12,11 +12,17 @@ function showData(data) {
     let body = '';
     for(let i = 0; i<20; i++){
         //console.log(data[i]);
-        body +=`         
-            <h2>id:${data.results[i].id}</h2>
-            <h2>name:${data.results[i].name}</h2>
-            <img src="${data.results[i].image}">
-            <h2>Specie:${data.results[i].species}</h2>            
+        body +=`  
+              
+            <div class="cards__datos">     
+                <h2>Id:${data.results[i].id}</h2>            
+                <h2>Name:${data.results[i].name}</h2>
+                <h2>Specie:${data.results[i].species}</h2>
+            <div>
+            <div class="cards__image">
+                <img src="${data.results[i].image}">
+            </div>    
+                              
         `;
     }
 
